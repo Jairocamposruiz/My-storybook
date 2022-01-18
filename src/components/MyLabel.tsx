@@ -24,6 +24,10 @@ interface MyLabelProps {
    * Custom color for the font
    */
   fontColor?: string;
+  /**
+   * Custom color for the background
+   */
+  backgroundColor?: string;
   className?: string;
   style?: CSSProperties;
 }
@@ -34,6 +38,7 @@ export const MyLabel = ({
   allCaps = false,
   color = 'primary',
   fontColor,
+  backgroundColor,
   className,
   style,
 }: MyLabelProps) => {
@@ -44,7 +49,8 @@ export const MyLabel = ({
       className={ `label ${ size } ${ className } ${classColor}` }
       style={{
         ...style,
-        color: fontColor
+        color: fontColor,
+        backgroundColor
       }}
     >
       {
