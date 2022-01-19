@@ -52,3 +52,17 @@ de manera automática según el comentario que pongamos en el mismo.
 - BREAKING CHANGE o perf: Indica que es una nueva versión con lo cual cambia el número principal
 
 Ejemplo: **fix: reparando bug**
+
+
+## Tokens
+
+---
+
+Este proyecto está configurado con github actions para manejo de semantic versioning automático y despliegue en NPM
+Para ello es necesario mantener los tokens.
+- Un token de GitHub para las developers settings el cual tiene una expiración de 90 días. The token will expire on Tue, Apr 19 2022
+- Un token de NPM para el despliegue automático, sin expiración.
+
+Estos tokens están configurados en el ámbito de repositorio en GitHub. Settings/secrets/actions.
+- GH_TOKEN
+- NPM_TOKEN
