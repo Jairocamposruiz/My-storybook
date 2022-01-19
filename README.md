@@ -1,4 +1,6 @@
-# My-Storybook
+# jcoder-my-storybook
+https://www.npmjs.com/package/jcoder-my-storybook
+
 
 ## Comandos
 
@@ -16,7 +18,7 @@ Levanta servidor con storybook
 
 ### ```npm run build-storybook```
 
-Crea archivos estáticos para subir a netlify, url provisional https://nostalgic-haibt-ee615f.netlify.app/
+Crea archivos estáticos de storybook
 
 ### ```npm run chromatic```
 
@@ -66,3 +68,6 @@ Para ello es necesario mantener los tokens.
 Estos tokens están configurados en el ámbito de repositorio en GitHub. Settings/secrets/actions.
 - GH_TOKEN
 - NPM_TOKEN
+
+
+## Funcionamiento del Package
