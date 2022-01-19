@@ -61,3 +61,5 @@ export const MyLabel = ({
     </label>
   );
 };
+
+export default MyLabel;
