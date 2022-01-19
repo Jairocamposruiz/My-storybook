@@ -3,7 +3,7 @@ import { CSSProperties } from 'react';
 import './mylabel.css';
 
 
-interface MyLabelProps {
+export interface MyLabelProps {
   /**
    * Message label
    */
